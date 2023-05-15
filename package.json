@@ -1,0 +1,20 @@
+{
+  "name": "com.redwyre.buildmenu",
+  "version": "1.0.0",
+  "displayName": "Build Menu",
+  "description": "A simple build menu",
+  "unity": "2022.2",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "dependencies": {
+  },
+  "keywords": [
+    "build"
+  ],
+  "author": {
+    "name": "Simon Stevenson",
+    "email": "redwyre@redwyre.com",
+    "url": "https://www.redwyre.com"
+  }
+}
