@@ -37,7 +37,7 @@ namespace BuildMenu.Editor
         {
             var platform = (UseDotnetRID ? BuildTargetToRuntimeIdentifier(buildTarget) : null) ?? BuildTargetToFolderName(buildTarget);
             var extension = GetPlayerExtension(buildTarget);
-            return $"Build/{platform}/{PlayerSettings.productName}{extension}";
+            return $"Builds/{platform}/{PlayerSettings.productName}{extension}";
         }
 
         /// <summary>
@@ -51,6 +51,7 @@ namespace BuildMenu.Editor
             {
                 BuildTarget.StandaloneWindows => ".exe",
                 BuildTarget.StandaloneWindows64 => ".exe",
+                BuildTarget.Android => ".apk",
                 _ => string.Empty,
             };
         }
